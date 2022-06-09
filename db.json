@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "Mehfil",
+      "email": "mehfil@gmail.com",
+      "address": "hyderabad",
+      "service": "food",
+      "mobile": 9878787878
+    },
+    {
+      "id": 3,
+      "name": "ejnfkje",
+      "email": "fejnfke",
+      "address": "fgvregre",
+      "service": "frefre",
+      "mobile": 22313213121
+    }
+  ],
+  "signup": [
+    {
+      "name": "hiii",
+      "mobile": 878990809809,
+      "email": "hii@gmail.com",
+      "password": "12mnjkmei",
+      "id": 1
+    },
+    {
+      "name": "r4t4et",
+      "mobile": 354353546,
+      "email": "fegre",
+      "password": "dsgfrdhtf",
+      "id": 2
+    },
+    {
+      "name": "chandini",
+      "mobile": 8978978978,
+      "email": "chandini@gmail.com",
+      "password": "chandini123",
+      "id": 3
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
