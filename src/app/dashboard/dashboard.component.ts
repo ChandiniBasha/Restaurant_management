@@ -47,7 +47,7 @@ export class DashboardComponent implements OnInit {
     this.restaurantModelObj.service = this.formValue.value.service;
 
 
-    this.api.postRestaurant(this.restaurantModelObj).subscribe((res)=>{
+    this.api.postRestaurant(this.restaurantModelObj).subscribe((res:any)=>{
       console.log(res);
       alert("Restaurant added successfully!");
       let ref = document.getElementById('clear');
@@ -56,8 +56,7 @@ export class DashboardComponent implements OnInit {
       this.getAllData();
     },err=>{
       alert("something went wrong!");
-    }
-    )
+    })
   }
 
   //get all data

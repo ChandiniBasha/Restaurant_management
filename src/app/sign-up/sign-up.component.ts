@@ -27,7 +27,7 @@ export class SignUpComponent implements OnInit {
     this._http.post<any>("http://localhost:3000/signup",this.signupForm.value).subscribe(res=>{
       alert("Registration Successful");
       this.signupForm.reset();
-      this.router.navigate(['login'])
+      this.router.navigate(['login']);
     },err=>{
       alert("Something went wrong!");
     })

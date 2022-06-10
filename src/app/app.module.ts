@@ -15,6 +15,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     LoginComponent,
     SignUpComponent
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -22,7 +23,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     ReactiveFormsModule,
     HttpClientModule,
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
